@@ -124,7 +124,7 @@ namespace Morse
             return Translation;
         }
 
-        public string Translate()
+        private string Translate()
         {
             // Trigger the translate method for either Morse to English or English to Morse depending on 'Input' contents
             if (Regex.Matches(Input, @"[a-zA-Z0-9!$%&*:;#~@]").Count != 0)
