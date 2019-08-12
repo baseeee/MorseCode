@@ -1,5 +1,5 @@
 # Morse Code Translator 
-A simple .Net Core namespace to translate from English to Morse Code and vice versa. The namespace can be found in `Morse.cs` and an implementation can be found in `Program.cs`.
+A simple .Net Core library to translate from English to Morse Code and vice versa. The library code can be found in `Morse.cs` and an implementation can be found in `Program.cs`.
 
 # Public Methods
 - `Code(string input)` - Class constructor, pass in the string to translate in either English or Morse
